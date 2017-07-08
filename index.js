@@ -217,8 +217,9 @@ module.exports = {
 		// 'lines-around-comment': 'off',
 		// 'max-depth': 'off',
 		'max-len': ['error', {
-			code: 8'off',
-			tabWidth: 'error',
+			code: 80,
+			tabWidth: 4,
+			ignoreComments: true,
 			ignoreUrls: true,
 			ignorePattern: '^goog\.(module|require)',
 		}],
@@ -332,8 +333,6 @@ module.exports = {
 		// 'symbol-description': 'off',
 		// 'template-curly-spacing': 'off',
 		'yield-star-spacing': ['error', 'after'],
-	},
-};
 	},
 	env: {
 		es6: true,
