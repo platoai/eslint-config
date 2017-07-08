@@ -167,7 +167,7 @@ module.exports = {
 		// 'no-undef': 'error', // eslint:recommended
 		// 'no-undef-init': 'off',
 		// 'no-undefined': 'off',
-		'no-unused-vars': ['error', {args: 'none'}], // eslint:recommended
+		'no-unused-vars': ['error', {args: 'after-used'}], // eslint:recommended
 		// 'no-use-before-define': 'off',
 
 		// Node.js and CommonJS
