@@ -65,14 +65,16 @@ module.exports = {
 		// 'no-unsafe-finally': 'error', // eslint:recommended
 		// 'no-unsafe-negation': 'off',
 		// 'use-isnan': 2 // eslint:recommended
-		'valid-jsdoc': ['error', {
-			requireParamDescription: false,
-			requireReturnDescription: false,
-			requireReturn: false,
-			prefer: {returns: 'return'},
-		}],
+		'valid-jsdoc': [
+			'error',
+			{
+				requireParamDescription: false,
+				requireReturnDescription: false,
+				requireReturn: false,
+				prefer: {returns: 'return'},
+			},
+		],
 		// 'valid-typeof': 2 // eslint:recommended
-
 
 		// Best Practices
 		// http://eslint.org/docs/rules/#best-practices
@@ -84,9 +86,7 @@ module.exports = {
 		// 'class-methods-use-this': 'off',
 		// 'complexity': 'off',
 		// 'consistent-return': 0
-		'curly': ['error', 'multi-line'], // TODO(philipwalton): add an option to enforce
-		                                  // braces with the exception of simple,
-		                                  // single-line if statements.
+		curly: ['error', 'multi-line'],
 		// 'default-case': 'off',
 		// 'dot-location': 'off',
 		// 'dot-notation': 'off',
@@ -193,7 +193,7 @@ module.exports = {
 		'array-element-newline': 'off', // eslint:recommended
 		'block-spacing': ['error', 'never'],
 		'brace-style': 'error',
-		'camelcase': ['error', {properties: 'never'}],
+		camelcase: ['error', {properties: 'never'}],
 		// 'capitalized-comments': 'off',
 		'comma-dangle': ['error', 'always-multiline'],
 		'comma-spacing': 'error',
@@ -217,20 +217,22 @@ module.exports = {
 		'linebreak-style': 'error',
 		// 'lines-around-comment': 'off',
 		// 'max-depth': 'off',
-		'max-len': ['error', {
-			code: 80,
-			tabWidth: 4,
-			ignoreComments: true,
-			ignoreUrls: true,
-			ignorePattern: '^goog\.(module|require)',
-		}],
+		'max-len': [
+			'error',
+			{
+				code: 80,
+				tabWidth: 4,
+				ignoreComments: true,
+				ignoreUrls: true,
+				ignorePattern: '^goog.(module|require)',
+			},
+		],
 		// 'max-lines': 'off',
 		// 'max-nested-callbacks': 'off',
 		// 'max-params': 'off',
 		// 'max-statements': 'off',
 		// 'max-statements-per-line': 'off',
-		// 'multiline-ternary': 'off', // TODO(philipwalton): add a rule to enforce the
-		                               // operator appearing at the end of the line.
+		// 'multiline-ternary': 'off',
 		'new-cap': 'error',
 		// 'new-parens': 'off',
 		// 'newline-per-chained-call': 'off',
@@ -258,36 +260,45 @@ module.exports = {
 		// 'object-curly-newline': 'off',
 		'object-curly-spacing': 'error',
 		// 'object-property-newline': 'off',
-		'one-var': ['error', {
-			var: 'never',
-			let: 'never',
-			const: 'never',
-		}],
+		'one-var': [
+			'error',
+			{
+				var: 'never',
+				let: 'never',
+				const: 'never',
+			},
+		],
 		// 'one-var-declaration-per-line': 'off',
 		// 'operator-assignment': 'off',
 		// 'operator-linebreak': 'off',
 		'padded-blocks': ['error', 'never'],
 		// 'padding-line-between-statements': 'off',
 		'quote-props': ['error', 'consistent'],
-		'quotes': ['error', 'single', {allowTemplateLiterals: true}],
-		'require-jsdoc': ['warn', {
-			require: {
-				FunctionDeclaration: true,
-				MethodDefinition: true,
-				ClassDeclaration: true,
+		quotes: ['error', 'single', {allowTemplateLiterals: true}],
+		'require-jsdoc': [
+			'warn',
+			{
+				require: {
+					FunctionDeclaration: true,
+					MethodDefinition: true,
+					ClassDeclaration: true,
+				},
 			},
-		}],
-		'semi': 'error',
+		],
+		semi: 'error',
 		'semi-spacing': 'error',
 		// 'semi-style': 'off',
 		// 'sort-keys': 'off',
 		// 'sort-vars': 'off',
 		'space-before-blocks': 'error',
-		'space-before-function-paren': ['error', {
-			asyncArrow: 'always',
-			anonymous: 'never',
-			named: 'never',
-		}],
+		'space-before-function-paren': [
+			'error',
+			{
+				asyncArrow: 'always',
+				anonymous: 'never',
+				named: 'never',
+			},
+		],
 		// 'space-in-parens': 'off',
 		// 'space-infix-ops': 'off',
 		// 'space-unary-ops': 'off',
@@ -301,10 +312,7 @@ module.exports = {
 		// http://eslint.org/docs/rules/#ecmascript-6
 		// ------------------------------------------
 		// 'arrow-body-style': 'off',
-		'arrow-parens': ['error', 'always'], // TODO(philipwalton): technically arrow
-		                                     // parens are optional but recommended.
-		                                     // ESLint doesn't support a *consistent*
-		                                     // setting so "always" is used.
+		'arrow-parens': ['error', 'always'],
 		// 'arrow-spacing': 'off',
 		'constructor-super': 'error', // eslint:recommended
 		'generator-star-spacing': ['error', 'after'],
