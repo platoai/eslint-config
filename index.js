@@ -85,8 +85,8 @@ module.exports = {
 		// 'complexity': 'off',
 		// 'consistent-return': 0
 		'curly': ['error', 'multi-line'], // TODO(philipwalton): add an option to enforce
-																			// braces with the exception of simple,
-																			// single-line if statements.
+		                                  // braces with the exception of simple,
+		                                  // single-line if statements.
 		// 'default-case': 'off',
 		// 'dot-location': 'off',
 		// 'dot-notation': 'off',
@@ -230,7 +230,7 @@ module.exports = {
 		// 'max-statements': 'off',
 		// 'max-statements-per-line': 'off',
 		// 'multiline-ternary': 'off', // TODO(philipwalton): add a rule to enforce the
-															 		 // operator appearing at the end of the line.
+		                               // operator appearing at the end of the line.
 		'new-cap': 'error',
 		// 'new-parens': 'off',
 		// 'newline-per-chained-call': 'off',
@@ -302,9 +302,9 @@ module.exports = {
 		// ------------------------------------------
 		// 'arrow-body-style': 'off',
 		'arrow-parens': ['error', 'always'], // TODO(philipwalton): technically arrow
-																	 			 // parens are optional but recommended.
-																	 		 	 // ESLint doesn't support a *consistent*
-																	 		 	 // setting so "always" is used.
+		                                     // parens are optional but recommended.
+		                                     // ESLint doesn't support a *consistent*
+		                                     // setting so "always" is used.
 		// 'arrow-spacing': 'off',
 		'constructor-super': 'error', // eslint:recommended
 		'generator-star-spacing': ['error', 'after'],
