@@ -1,0 +1,43 @@
+{
+  "name": "@platoai/eslint-config",
+  "version": "0.0.1",
+  "description": "ESLint shareable config for the Plato AI style",
+  "license": "MIT",
+  "repository": "platoai/eslint-config",
+  "author": "Plato AI",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "platoai",
+    "code",
+    "quality",
+    "style",
+    "lint",
+    "linter",
+    "jscs",
+    "jshint",
+    "jslint",
+    "eslint",
+    "validate",
+    "code style",
+    "strict",
+    "check",
+    "checker",
+    "verify",
+    "enforce",
+    "hint"
+  ],
+  "dependencies": {
+    "eslint-config-google": "^0.9.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.1.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=4.1.1"
+  }
+}
