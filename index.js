@@ -209,6 +209,7 @@ module.exports = {
 		// 'id-length': 'off',
 		// 'id-match': 'off',
 		indent: ['error', 'tab'],
+		'no-tabs': 'off',
 		// 'jsx-quotes': 'off',
 		'key-spacing': 'error',
 		'keyword-spacing': 'error',
