@@ -125,7 +125,7 @@ module.exports = {
 		// 'no-octal-escape': 'off',
 		// 'no-param-reassign': 'off',
 		// 'no-proto': 'off',
-		// 'no-redeclare': 'error', // eslint:recommended
+		'no-redeclare': 'error', // eslint:recommended
 		// 'no-restricted-properties': 'off',
 		// 'no-return-assign': 'off',
 		// 'no-script-url': 'off',
