@@ -1,6 +1,6 @@
 {
   "name": "@platoai/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ESLint shareable config for the Plato AI style",
   "license": "MIT",
   "repository": "platoai/eslint-config",
