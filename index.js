@@ -335,7 +335,7 @@ module.exports = {
 		// 'prefer-numeric-literals': 'off',
 		'prefer-rest-params': 'error',
 		'prefer-spread': 'error',
-		// 'prefer-template': 'off',
+		'prefer-template': 'error',
 		// 'require-yield': 'error', // eslint:recommended
 		'rest-spread-spacing': 'error',
 		// 'sort-imports': 'off',
