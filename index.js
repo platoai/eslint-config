@@ -329,7 +329,7 @@ module.exports = {
 		// 'no-useless-rename': 'off',
 		'no-var': 'error',
 		// 'object-shorthand': 'off',
-		// 'prefer-arrow-callback': 'off',
+		'prefer-arrow-callback': 'error',
 		'prefer-const': 'error',
 		// 'prefer-destructuring': 'off',
 		// 'prefer-numeric-literals': 'off',
