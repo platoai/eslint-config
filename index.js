@@ -17,6 +17,9 @@
 'use strict';
 
 module.exports = {
+	parserOptions: {
+		ecmaVersion: 8,
+	},
   rules: {
     // The rules below are listed in the order they appear on the eslint
     // rules page. All rules are listed to make it easier to keep in sync
@@ -205,8 +208,7 @@ module.exports = {
     // 'id-blacklist': 0,
     // 'id-length': 0,
     // 'id-match': 0,
-    // 'indent': 0, // TODO(philipwalton): this rule isn't compatible with
-                    // Google's 4-space indent for line continuations.
+  	indent: ['error', 'tab'],
     // 'jsx-quotes': 0,
     'key-spacing': 2,
     'keyword-spacing': 2,
@@ -236,7 +238,7 @@ module.exports = {
     // 'no-inline-comments': 0,
     // 'no-lonely-if': 0,
     // 'no-mixed-operators': 0,
-    'no-mixed-spaces-and-tabs': 2, // eslint:recommended
+    'no-mixed-spaces-and-tabs': ['error', 'smart-tabs'],
     // 'no-multi-assign': 0,
     'no-multiple-empty-lines': [2, {max: 2}],
     // 'no-negated-condition': 0,
@@ -266,7 +268,7 @@ module.exports = {
     // 'padding-line-between-statements': 0,
     'quote-props': [2, 'consistent'],
     'quotes': [2, 'single', {allowTemplateLiterals: true}],
-    'require-jsdoc': [2, {
+    'require-jsdoc': ['warn', {
       require: {
         FunctionDeclaration: true,
         MethodDefinition: true,
@@ -331,4 +333,9 @@ module.exports = {
     // 'template-curly-spacing': 0,
     'yield-star-spacing': [2, 'after'],
   },
+};
+	},
+	env: {
+		es6: true,
+	},
 };
