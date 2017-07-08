@@ -31,9 +31,6 @@
     "enforce",
     "hint"
   ],
-  "dependencies": {
-    "eslint-config-google": "^0.9.1"
-  },
   "devDependencies": {
     "eslint": "^4.1.1"
   },
