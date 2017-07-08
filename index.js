@@ -330,7 +330,7 @@ module.exports = {
 		'no-var': 'error',
 		// 'object-shorthand': 'off',
 		// 'prefer-arrow-callback': 'off',
-		// 'prefer-const': 'off',
+		'prefer-const': 'error',
 		// 'prefer-destructuring': 'off',
 		// 'prefer-numeric-literals': 'off',
 		'prefer-rest-params': 'error',
