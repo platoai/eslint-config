@@ -2,7 +2,7 @@
   "name": "@platoai/eslint-config",
   "version": "0.0.2",
   "description": "ESLint shareable config for the Plato AI style",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "repository": "platoai/eslint-config",
   "author": "Plato AI",
   "engines": {
