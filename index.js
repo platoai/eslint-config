@@ -36,35 +36,35 @@ module.exports = {
 		// ---------------------------------------------
 		// 'for-direction': 'off',
 		// 'no-await-in-loop': 'off',
-		// 'no-compare-neg-zero': 'error', // eslint:recommended
+		'no-compare-neg-zero': 'error', // eslint:recommended
 		'no-cond-assign': 'off', // eslint:recommended
-		// 'no-console': 'error', // eslint:recommended
-		// 'no-constant-condition': 'error', // eslint:recommended
-		// 'no-control-regex': 'error', // eslint:recommended
-		// 'no-debugger': 'error', // eslint:recommended
-		// 'no-dupe-args': 'error', // eslint:recommended
-		// 'no-dupe-keys': 'error', // eslint:recommended
-		// 'no-duplicate-case': 'error', // eslint:recommended
-		// 'no-empty': 'error', // eslint:recommended
-		// 'no-empty-character-class': 'error', // eslint:recommended
-		// 'no-ex-assign': 'error', // eslint:recommended
-		// 'no-extra-boolean-cast': 'error', // eslint:recommended
+		'no-console': 'error', // eslint:recommended
+		'no-constant-condition': 'error', // eslint:recommended
+		'no-control-regex': 'error', // eslint:recommended
+		'no-debugger': 'error', // eslint:recommended
+		'no-dupe-args': 'error', // eslint:recommended
+		'no-dupe-keys': 'error', // eslint:recommended
+		'no-duplicate-case': 'error', // eslint:recommended
+		'no-empty': 'error', // eslint:recommended
+		'no-empty-character-class': 'error', // eslint:recommended
+		'no-ex-assign': 'error', // eslint:recommended
+		'no-extra-boolean-cast': 'error', // eslint:recommended
 		// 'no-extra-parens': 'off',
-		// 'no-extra-semi': 'error', // eslint:recommended
-		// 'no-func-assign': 'error', // eslint:recommended
-		// 'no-inner-declarations': 'error', // eslint:recommended
-		// 'no-invalid-regexp': 'error', // eslint:recommended
+		'no-extra-semi': 'error', // eslint:recommended
+		'no-func-assign': 'error', // eslint:recommended
+		'no-inner-declarations': 'error', // eslint:recommended
+		'no-invalid-regexp': 'error', // eslint:recommended
 		'no-irregular-whitespace': 'error', // eslint:recommended
-		// 'no-obj-calls': 'error', // eslint:recommended
+		'no-obj-calls': 'error', // eslint:recommended
 		// 'no-prototype-builtins': 'off',
-		// 'no-regex-spaces': 'error', // eslint:recommended
-		// 'no-sparse-arrays': 'error', // eslint:recommended
+		'no-regex-spaces': 'error', // eslint:recommended
+		'no-sparse-arrays': 'error', // eslint:recommended
 		// 'no-template-curly-in-string': 'off',
 		'no-unexpected-multiline': 'error', // eslint:recommended
-		// 'no-unreachable': 'error', // eslint:recommended
-		// 'no-unsafe-finally': 'error', // eslint:recommended
+		'no-unreachable': 'error', // eslint:recommended
+		'no-unsafe-finally': 'error', // eslint:recommended
 		// 'no-unsafe-negation': 'off',
-		// 'use-isnan': 2 // eslint:recommended
+		// 'use-isnan': 'error', // eslint:recommended
 		'valid-jsdoc': [
 			'error',
 			{
@@ -74,7 +74,7 @@ module.exports = {
 				prefer: {returns: 'return'},
 			},
 		],
-		// 'valid-typeof': 2 // eslint:recommended
+		'valid-typeof': 'error', // eslint:recommended
 
 		// Best Practices
 		// http://eslint.org/docs/rules/#best-practices
@@ -159,7 +159,7 @@ module.exports = {
 		// ---------------------------------------
 		// 'init-declarations': 'off',
 		// 'no-catch-shadow': 'off',
-		// 'no-delete-var': 'error', // eslint:recommended
+		'no-delete-var': 'error', // eslint:recommended
 		// 'no-label-var': 'off',
 		// 'no-restricted-globals': 'off',
 		// 'no-shadow': 'off',
