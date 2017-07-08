@@ -164,7 +164,7 @@ module.exports = {
 		// 'no-restricted-globals': 'off',
 		// 'no-shadow': 'off',
 		// 'no-shadow-restricted-names': 'off',
-		// 'no-undef': 'error', // eslint:recommended
+		'no-undef': 'error', // eslint:recommended
 		// 'no-undef-init': 'off',
 		// 'no-undefined': 'off',
 		'no-unused-vars': ['error', {args: 'after-used'}], // eslint:recommended
