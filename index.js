@@ -248,7 +248,7 @@ module.exports = {
 		'no-new-object': 'error',
 		// 'no-plusplus': 'off',
 		// 'no-restricted-syntax': 'off',
-		'no-tabs': 'error',
+		'no-tabs': 'off',
 		// 'no-ternary': 'off',
 		'no-trailing-spaces': 'error',
 		// 'no-underscore-dangle': 'off',
