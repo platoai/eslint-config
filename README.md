@@ -22,5 +22,24 @@ Once the `@platoai/eslint-config` package is installed, you can use it by specif
 }
 ```
 
+### Using the `@platoai` config with `eslint:recommended`
+
+There are several rules in the [`eslint:recommended` ruleset](http://eslint.org/docs/rules/) that Plato AI style is not opinionated about that you might want to enforce in your project.
+
+To use Plato AI style in conjunction with ESLint's recommended rule set, extend them both, making sure to list `@platoai` last:
+
+```js
+{
+  "extends": ["eslint:recommended", "@platoai"],
+  "rules": {
+    // Additional, per-project rules...
+  }
+}
+```
+
+To see how the `@platoai` config compares with `eslint:recommended`, refer to the [source code of `index.js`](index.js), which lists every ESLint rule along with whether (and how) it is enforced by the `@platoai` config.
+
+
 ## License
-[MIT](https://opensource.org/licenses/MIT)
+
+Apache-2 © Google
