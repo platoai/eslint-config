@@ -221,7 +221,7 @@ module.exports = {
 			'error',
 			{
 				code: 80,
-				tabWidth: 4,
+				tabWidth: 2,
 				ignoreComments: true,
 				ignoreUrls: true,
 				ignorePattern: '^goog.(module|require)',
