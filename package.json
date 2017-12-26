@@ -1,10 +1,10 @@
 {
-  "name": "@platoai/eslint-config",
+  "name": "@voxjar/eslint-config",
   "version": "0.0.5",
-  "description": "ESLint shareable config for the Plato AI style",
+  "description": "ESLint shareable config for the voxjar style",
   "license": "Apache-2.0",
-  "repository": "platoai/eslint-config",
-  "author": "Plato AI",
+  "repository": "voxjar/eslint-config",
+  "author": "voxjar",
   "engines": {
     "node": ">=0.10.0"
   },
@@ -15,7 +15,7 @@
     "index.js"
   ],
   "keywords": [
-    "platoai",
+    "voxjar",
     "code",
     "quality",
     "style",
