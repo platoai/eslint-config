@@ -1,6 +1,6 @@
 {
   "name": "@voxjar/eslint-config",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "ESLint shareable config for the voxjar style",
   "license": "Apache-2.0",
   "repository": "voxjar/eslint-config",
