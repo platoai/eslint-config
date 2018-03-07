@@ -1,7 +1,7 @@
 # @voxjar/eslint-config
 [![npm version](https://badge.fury.io/js/%40voxjar%2Feslint-config.svg)](https://badge.fury.io/js/%40voxjar%2Feslint-config)
 
-> [ESLint](http://eslint.org/) [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for the voxjar style.
+> [ESLint](http://eslint.org/) [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for the [Voxjar] style.
 
 ## Installation
 
@@ -43,3 +43,6 @@ To see how the `@voxjar` config compares with `eslint:recommended`, refer to the
 ## License
 
 Apache-2 © Google
+
+
+[Voxjar]: https://voxjar.com
